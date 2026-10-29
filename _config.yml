@@ -1,0 +1,8 @@
+title: KCD Bangkok 2027
+description: Kubernetes Community Days Bangkok 2027 · 25 March 2027 · Call for Speakers
+theme: jekyll-theme-cayman
+lang: th
+baseurl: /kcd-bangkok-2027
+url: https://cncg-bkk.github.io
+exclude:
+  - LICENSE
