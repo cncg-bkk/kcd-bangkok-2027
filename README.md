@@ -9,6 +9,38 @@
   <a href="https://sessionize.com/kcd-bangkok-2027/"><strong>👉 ส่ง Proposal บน Sessionize 👈</strong></a>
 </p>
 
+### 😎 ส่ง Talk แบบชาว Kubernetes
+
+```yaml
+# your-talk.yaml
+apiVersion: kcd.bangkok/v2027
+kind: Talk
+metadata:
+  name: what-we-learned-in-prod          # ชื่อ Talk ของคุณ
+  namespace: kcd-bangkok
+  labels:
+    event-date: "2027-03-25"
+    venue: eastin-grand-sathorn          # อยู่ระหว่างยืนยัน
+spec:
+  speaker: you                           # ผู้พูดหน้าใหม่ยินดีต้อนรับ 🌟
+  track: platform-engineering            # | k8s-ops | observability | security | ai-ml | community
+  format: talk                           # talk 30m | lightning 5-10m | workshop 60-90m | panel 40m
+  level: intermediate                    # beginner | intermediate | advanced
+  language: [th, en]
+  vendorNeutral: true                    # ให้ความรู้ ไม่ขายของ
+  cfp:
+    opens: "2026-11-01"
+    closes: "2027-01-22T23:59:00+07:00"  # ⏰ ไม่มีการขยายเวลา
+    submitTo: https://sessionize.com/kcd-bangkok-2027/
+status:
+  phase: Pending                         # → Accepted 🎉
+```
+
+```console
+$ kubectl apply -f your-talk.yaml
+talk.kcd.bangkok/what-we-learned-in-prod created
+```
+
 ---
 
 ## 1. เกี่ยวกับ KCD Bangkok
@@ -25,9 +57,9 @@ KCD Bangkok 2027 เป็นงาน 1 วันสำหรับวิศว
 
 | กำหนดการ | วันที่ |
 | --- | --- |
-| เปิดรับ Proposal | จันทร์ 2 พฤศจิกายน 2569 |
-| ปิดรับ Proposal | อาทิตย์ 10 มกราคม 2570 เวลา 23:59 น. (UTC+7) |
-| แจ้งผลการคัดเลือก | ภายในอาทิตย์ 24 มกราคม 2570 |
+| เปิดรับ Proposal | อาทิตย์ 1 พฤศจิกายน 2569 |
+| ปิดรับ Proposal | ศุกร์ 22 มกราคม 2570 เวลา 23:59 น. (UTC+7) |
+| แจ้งผลการคัดเลือก | ภายในอังคาร 26 มกราคม 2570 |
 | วิทยากรยืนยันการเข้าร่วม | ภายในอาทิตย์ 31 มกราคม 2570 |
 | ประกาศ Agenda | จันทร์ 8 กุมภาพันธ์ 2570 |
 | ส่งสไลด์ | พฤหัสบดี 18 มีนาคม 2570 |

@@ -31,9 +31,9 @@ We welcome speakers of all experience levels, and **first-time speakers are stro
 
 | Milestone | Date |
 | --- | --- |
-| CFP opens | Mon, 2 November 2026 |
-| CFP closes | Sun, 10 January 2027, 23:59 ICT (UTC+7) |
-| Speaker notifications | By Sun, 24 January 2027 |
+| CFP opens | Sun, 1 November 2026 |
+| CFP closes | Fri, 22 January 2027, 23:59 ICT (UTC+7) |
+| Speaker notifications | By Tue, 26 January 2027 |
 | Speaker confirmation deadline | Sun, 31 January 2027 |
 | Agenda published | Mon, 8 February 2027 |
 | Slides due (for review/upload) | Thu, 18 March 2027 |
